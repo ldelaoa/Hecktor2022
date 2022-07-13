@@ -1,5 +1,3 @@
-#To run in JupyterEnv2
-#From / https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/spleen_segmentation_3d.ipynb
 
 from monai.utils import first, set_determinism
 from monai.transforms import (
@@ -34,6 +32,9 @@ import shutil
 import os
 import glob
 
+
+#To run in JupyterEnv2
+#From / https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/spleen_segmentation_3d.ipynb
 
 #directory = os.environ.get("MONAI_DATA_DIRECTORY")
 #root_dir = tempfile.mkdtemp() if directory is None else directory
